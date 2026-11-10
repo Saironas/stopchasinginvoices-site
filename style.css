@@ -186,3 +186,13 @@ th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-ali
 
 .hero a:not(.btn),.cta-band a:not(.btn){color:var(--amber);text-decoration-thickness:2px}
 .altmail{margin:4px 0 0}
+
+.lead-form{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 4px;align-items:center}
+.lead-form input[type=email]{flex:1 1 240px;min-width:220px;padding:15px 22px;border-radius:999px;border:2px solid var(--line);background:#fff;color:var(--ink);font:inherit}
+.hero .lead-form input[type=email],.cta-band .lead-form input[type=email]{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.35);color:#fff}
+.lead-form input[type=email]::placeholder{color:#9a90a8}
+.hero .lead-form input[type=email]::placeholder,.cta-band .lead-form input[type=email]::placeholder{color:#cdbfe3}
+.lead-form input[type=email]:focus{outline:3px solid var(--orange);outline-offset:2px}
+button.btn{font:inherit;font-weight:800;cursor:pointer;margin:0}
+.cta-band .lead-form{justify-content:center;max-width:620px;margin:0 auto 8px}
+.sr{position:absolute;left:-9999px}
