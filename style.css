@@ -41,6 +41,8 @@ section{padding:96px 0;position:relative}
 section.alt{background:var(--paper)}
 section.dark{background:var(--ink);color:#fff}
 section.dark .lede{color:#cdbfe3}
+section.dark a,.cta-band a:not(.btn){color:var(--amber);text-decoration-thickness:2px}
+section.dark a:hover{color:#fff}
 .sec-head{max-width:46em;margin-bottom:44px}
 .kicker{font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);display:block;margin-bottom:12px}
 
