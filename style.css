@@ -183,3 +183,6 @@ th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-ali
 @media(max-width:960px){.hero-grid{grid-template-columns:1fr;gap:44px}.stage{min-height:430px}.hero{padding:64px 0 76px}.ba{grid-template-columns:1fr}.bento .card,.bento .card.wide,.bento .card.big{grid-column:span 6}}
 @media(max-width:600px){body{font-size:16px}section{padding:64px 0}.cta-band{padding:48px 22px}nav{gap:4px 14px}.stage .m1{width:100%}.stage .m2{width:70%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}h1 .w>span{transform:none}.js .rv{opacity:1;transform:none}.tl-item{opacity:1}.tl-item h3,.tl-item p{transform:none}}
+
+.hero a:not(.btn),.cta-band a:not(.btn){color:var(--amber);text-decoration-thickness:2px}
+.altmail{margin:4px 0 0}
